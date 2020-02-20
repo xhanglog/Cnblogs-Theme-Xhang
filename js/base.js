@@ -100,7 +100,7 @@ function Base() {
         bndongJs.setPageAnimationControl();
 
         // 控制台输出
-        tools.consoleText(window.cnblogsConfig.consoleList, 'banner');
+        //tools.consoleText(window.cnblogsConfig.consoleList, 'banner');
 
         (function () {
             var re = /x/;
@@ -139,7 +139,7 @@ function Base() {
             hidden,
             visibilityChange,
             timer;
-        
+
         if (typeof document.hidden !== "undefined") {
             hidden = "hidden";
             visibilityChange = "visibilitychange";
@@ -301,7 +301,7 @@ function Base() {
                 "content-type": "application/x-www-form-urlencoded",
             },
         };
-        
+
         $.ajax(settings).done(function (response) {
             if (response !== '') {
                 $('#hitokoto').text(response.hitokoto).css('display', '-webkit-box');

@@ -24,14 +24,14 @@ function myTools() {
     /**
      * 控制台输出图片
      */
-    this.consoleImg = function(url) {
+    /*this.consoleImg = function(url) {
         console.log('%c', 'padding:50px 300px; line-height:120px; background:url('+url+') no-repeat;');
-    };
+    };*/
 
     /**
      * 控制台输出内容
      */
-    this.consoleText = function(list, mode) {
+    /*this.consoleText = function(list, mode) {
         var e = ["\n %c %c %c Theme GitHub %c  %c https://github.com/xhanglog/Cnblogs-Theme-SimpleMemory  %c \n\n", "background: #fadfa3; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;", "background: #FCEDC9; padding:5px 0;", "background: #fadfa3; padding:5px 0;"];
         window.console.log.apply(console, e);
         switch (mode) {
@@ -54,7 +54,7 @@ function myTools() {
                 console.log('%c'+list.join('\n'), colors.gray);
                 break;
         }
-    };
+    };*/
 
     /**
      * 滚动主体滚动条到指定位置
